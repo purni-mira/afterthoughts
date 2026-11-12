@@ -1,0 +1,20 @@
+{
+  "name": "Afterthoughts",
+  "short_name": "Afterthoughts",
+  "description": "Turn what you read into what you think. Think independently. Express confidently.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F1F2EE",
+  "theme_color": "#2340C4",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "New afterthought", "url": "./#/new" },
+    { "name": "Library", "url": "./#/library" }
+  ]
+}
