@@ -10,7 +10,7 @@
  *           Delete the gift block to turn it off.
  */
 window.AFTERTHOUGHTS_CONFIG = {
-  provider: "demo",
+  provider: "server",
   endpoint: "/api/ai",
   owner: { name: "Purnisha Tomar", headline: "" },
   gift: {
