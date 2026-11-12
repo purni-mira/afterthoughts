@@ -1,4 +1,8 @@
 {
+  "rewrites": [
+    { "source": "/js/:file", "destination": "/:file" },
+    { "source": "/css/:file", "destination": "/:file" }
+  ],
   "headers": [
     { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     {
